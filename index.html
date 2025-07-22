@@ -31,10 +31,7 @@
       // Desktop: Use hover to show/hide
       $('.btn3').hover(
         function() {
-          $('.para1').stop(true, true).slideDown();
-        },
-        function() {
-          $('.para1').stop(true, true).slideUp();
+          $('.para1').stop().slideToggle();
         }
       );
     }
